@@ -11,6 +11,7 @@ public interface Service {
     boolean deleteUser(long id);
     User getUserById(long id);
     String getAllUsers();
+    
     //BOOK//
     boolean addBook(Book book, long id);
     boolean editBook(Book book, long userId);
